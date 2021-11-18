@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <title>Soccer Greats</title>
+        <link rel="stylesheet" href="style1.css">
+    </head>
+
+    <body>
+        
+        <header>
+            <a href="index.htm">Home</a>
+            <a href="messi.htm">messi</a>
+            <a href="ronaldo.htm">ronaldo</a>
+            <a href="ronaldinho.htm">ronaldinho</a>
+        
+            
+            <h1 align = "center">Welcome to Soccer Greats</h1>
+
+            <br><br>
+
+        </header>
+        
+        <section>
+            <img class="mySlides" src="ronadlo 1.jpg" style="width:100%">
+            <img class="mySlides" src="ronadlo 2.jpg" style="width:100%">
+            <img class="mySlides" src="messi1.jpg_background=000000&cropX1=989&cropX2=2480&cropY1=74&cropY2=1564" style="width:100%">
+            <img class="mySlides" src="messi 2.jpg" style="width:100%">
+            <img class="mySlides" src="ronaldinho.htm" style="width:100%">
+            <img class="mySlides" src="ronaldinho 2.jpg" style="width:100%">
+          </section>
+          
+
+          <script>
+          // Automatic Slideshow - change image every 3 seconds
+          var myIndex = 0;
+          carousel();
+          
+          function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+              x[i].style.display = "none";
+            }
+            myIndex++;
+            if (myIndex > x.length) {myIndex = 1}
+            x[myIndex-1].style.display = "block";
+            setTimeout(carousel, 3000);
+          }
+          </script>
+
+
+            <p>Famous football players names include David Beckham, Cristiano Ronaldo, and of course, Lionel Messi. From reputable, prominent, and well known footballers to the lesser known footballers of today, these are the top best professionals in this field.</p>
+
+            <p>The most popular sport in the world, football, has had some true heroes who have transcended the game itself and cemented their legacy in the minds of football fans forever. Is picking the best football players of all time even possible?</p>
+
+
+
+
+
+
+
+    </body>
+</html>
